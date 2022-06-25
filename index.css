@@ -1,0 +1,14 @@
+#studentData{
+    display: grid;
+    grid-template-columns: repeat(1, 0.3fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+
+#studentData>input{
+    width: 400px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
